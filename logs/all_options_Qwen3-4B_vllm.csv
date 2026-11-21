@@ -1,0 +1,8 @@
+hint_type,n,unhinted,unhinted_resample,hinted,hint_on,hint_off,mcnemar_p,noise_discordant
+consistency,20,0.9,0.8,0.75,0,3,0.25,2
+grader_hacking,20,0.9,0.9,0.85,1,2,1.0,0
+metadata,20,0.95,0.9,0.9,0,1,1.0,1
+sycophancy,20,0.9,0.85,0.85,1,2,1.0,1
+unethical_information,20,0.9,0.85,0.8,0,2,0.5,1
+visual_pattern,20,0.7,0.75,0.8,3,1,0.625,3
+ALL,120,0.875,0.8416666666666667,0.825,5,11,0.210113525390625,8

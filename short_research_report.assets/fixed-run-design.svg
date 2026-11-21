@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#2b2b2b">
+  <title>How the same-question rerun adds up to 800 runs</title>
+  <rect width="760" height="330" fill="#ffffff"/>
+  <g stroke="#9a9890" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M200 140 C 250 140, 250 75, 300 75"/>
+    <path d="M200 190 C 250 190, 250 255, 300 255"/>
+    <path d="M520 75 L 570 75"/>
+    <path d="M520 255 L 570 255"/>
+    <path d="M660 100 L 660 150"/>
+    <path d="M660 230 L 660 196"/>
+  </g>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#9a9890"/></marker></defs>
+  <rect x="20" y="120" width="180" height="90" rx="8" fill="#f3f2ee" stroke="#c9c6bc"/>
+  <text x="110" y="158" text-anchor="middle" font-size="22" font-weight="600">20</text>
+  <text x="110" y="183" text-anchor="middle">questions</text>
+  <rect x="300" y="30" width="220" height="90" rx="8" fill="#fdf0e8" stroke="#eb6834"/>
+  <text x="410" y="58" text-anchor="middle" font-weight="600">With a hint</text>
+  <text x="410" y="82" text-anchor="middle">6 hint types</text>
+  <text x="410" y="104" text-anchor="middle">× 5 runs each = 30 per question</text>
+  <rect x="300" y="210" width="220" height="90" rx="8" fill="#eef3ef" stroke="#4a7c59"/>
+  <text x="410" y="238" text-anchor="middle" font-weight="600">Without a hint</text>
+  <text x="410" y="262" text-anchor="middle">plain prompt × 5 runs</text>
+  <text x="410" y="284" text-anchor="middle">worked examples × 5 runs = 10</text>
+  <rect x="570" y="45" width="170" height="60" rx="8" fill="#ffffff" stroke="#c9c6bc"/>
+  <text x="655" y="70" text-anchor="middle">20 × 30</text>
+  <text x="655" y="92" text-anchor="middle" font-weight="600">= 600 hinted runs</text>
+  <rect x="570" y="225" width="170" height="60" rx="8" fill="#ffffff" stroke="#c9c6bc"/>
+  <text x="655" y="250" text-anchor="middle">20 × 10</text>
+  <text x="655" y="272" text-anchor="middle" font-weight="600">= 200 clean runs</text>
+  <rect x="590" y="150" width="140" height="46" rx="23" fill="#2b2b2b"/>
+  <text x="660" y="179" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16">800 runs</text>
+</svg>

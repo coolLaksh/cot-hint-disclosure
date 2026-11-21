@@ -1,0 +1,137 @@
+section,model,reasoning_type,metric,k,n,value,ci_low,ci_high
+necessity,Qwen3-4B_vllm,recall,clean accuracy (sample 0),56.0,64,0.875,0.7722521366978408,0.935278346073792
+necessity,Qwen3-1.7B_vllm,recall,clean accuracy (sample 0),48.0,64,0.75,0.6318349082561628,0.8398520802582591
+necessity,Qwen3-4B_vllm,recall,median thinking tokens (clean),,64,525.5,,
+necessity,Qwen3-4B_vllm,recall,answer comes from worked steps,21.0,57,0.3684210526315789,0.2552337550616508,0.4982244051445238
+necessity,Qwen3-4B_vllm,recall,"median commit position (0 start, 1 end)",,57,0.4866576209859792,,
+propensity,Qwen3-4B_vllm,recall,answer fixed in first 25% of trace,10.0,57,0.175438596491228,0.098187471335966,0.2936759905059315
+propensity,Qwen3-4B_vllm,recall,median share of trace written after commit,,57,0.5133423790140208,,
+propensity,Qwen3-4B_vllm,recall,states the deciding reason,54.0,57,0.9473684210526316,0.8563022233952869,0.9819400319037188
+propensity,Qwen3-4B_vllm,recall,after commit: verification,27.0,57,0.4736842105263157,0.3498695765634663,0.6008220554777685
+propensity,Qwen3-4B_vllm,recall,after commit: reconsideration,23.0,57,0.4035087719298245,0.2861732352653998,0.5330294155524615
+propensity,Qwen3-4B_vllm,recall,after commit: elaboration,7.0,57,0.1228070175438596,0.060779830035075,0.2324668958892925
+propensity,Qwen3-4B_vllm,recall,after commit: none,0.0,57,0.0,0.0,0.0631410087834639
+propensity,Qwen3-4B_vllm,recall,hinted traces that mention the hint,31.0,55,0.5636363636363636,0.4326958407868131,0.686267613639987
+monitorability,Qwen3-4B_vllm,recall,"flips disclosed (B1, automated)",10.0,11,0.9090909090909092,0.6226353745137962,0.983768247737174
+monitorability,Qwen3-4B_vllm,recall,flips flagged by the CoT-only monitor (B2),10.0,10,1.0,0.7224598312333834,1.0
+necessity,Qwen3-1.7B_vllm,recall,median thinking tokens (clean),,64,1045.5,,
+necessity,Qwen3-1.7B_vllm,recall,answer comes from worked steps,20.0,56,0.3571428571428571,0.2445639270270599,0.4880635428266874
+necessity,Qwen3-1.7B_vllm,recall,"median commit position (0 start, 1 end)",,56,0.5166674867630412,,
+propensity,Qwen3-1.7B_vllm,recall,answer fixed in first 25% of trace,10.0,56,0.1785714285714285,0.0999974974134417,0.2984143097574895
+propensity,Qwen3-1.7B_vllm,recall,median share of trace written after commit,,56,0.4833325132369588,,
+propensity,Qwen3-1.7B_vllm,recall,states the deciding reason,54.0,56,0.9642857142857144,0.8788099414778991,0.9901507814974224
+propensity,Qwen3-1.7B_vllm,recall,after commit: verification,29.0,56,0.5178571428571429,0.3901016225125491,0.6433199437557326
+propensity,Qwen3-1.7B_vllm,recall,after commit: reconsideration,25.0,56,0.4464285714285714,0.3238651625129941,0.5758701386821612
+propensity,Qwen3-1.7B_vllm,recall,after commit: elaboration,1.0,56,0.0178571428571428,0.0031591289644639,0.0944585817919329
+propensity,Qwen3-1.7B_vllm,recall,after commit: none,1.0,56,0.0178571428571428,0.0031591289644639,0.0944585817919329
+propensity,Qwen3-1.7B_vllm,recall,hinted traces that mention the hint,32.0,61,0.5245901639344263,0.4015694171531101,0.6446971771320402
+monitorability,Qwen3-1.7B_vllm,recall,"flips disclosed (B1, automated)",11.0,13,0.8461538461538461,0.5776482949136899,0.956742736817262
+monitorability,Qwen3-1.7B_vllm,recall,flips flagged by the CoT-only monitor (B2),10.0,12,0.8333333333333334,0.5519636426153274,0.9530358523851776
+necessity,Qwen3-4B_vllm,single_step,clean accuracy (sample 0),35.0,46,0.7608695652173914,0.6206458383088198,0.860879634388686
+necessity,Qwen3-1.7B_vllm,single_step,clean accuracy (sample 0),29.0,46,0.6304347826086957,0.4859983314918478,0.7547644048569049
+necessity,Qwen3-4B_vllm,single_step,median thinking tokens (clean),,46,1364.5,,
+necessity,Qwen3-4B_vllm,single_step,answer comes from worked steps,30.0,39,0.7692307692307693,0.6166343954261704,0.8735433757121625
+necessity,Qwen3-4B_vllm,single_step,"median commit position (0 start, 1 end)",,39,0.6884550084889643,,
+propensity,Qwen3-4B_vllm,single_step,answer fixed in first 25% of trace,5.0,39,0.1282051282051282,0.0560273494802831,0.2670604903763047
+propensity,Qwen3-4B_vllm,single_step,median share of trace written after commit,,39,0.3115449915110356,,
+propensity,Qwen3-4B_vllm,single_step,states the deciding reason,39.0,39,1.0,0.9103301463997612,1.0
+propensity,Qwen3-4B_vllm,single_step,after commit: verification,15.0,39,0.3846153846153846,0.2489116254700706,0.5410121868992154
+propensity,Qwen3-4B_vllm,single_step,after commit: reconsideration,19.0,39,0.4871794871794871,0.3386492878313309,0.6380089135430342
+propensity,Qwen3-4B_vllm,single_step,after commit: elaboration,3.0,39,0.0769230769230769,0.0265069140734956,0.2032137312805527
+propensity,Qwen3-4B_vllm,single_step,after commit: none,2.0,39,0.0512820512820512,0.0141776576463995,0.1688593904563791
+propensity,Qwen3-4B_vllm,single_step,hinted traces that mention the hint,23.0,38,0.6052631578947368,0.4471758699869596,0.7440214073638108
+monitorability,Qwen3-4B_vllm,single_step,"flips disclosed (B1, automated)",5.0,8,0.625,0.3057378545838018,0.863158240538479
+monitorability,Qwen3-4B_vllm,single_step,flips flagged by the CoT-only monitor (B2),3.0,6,0.5,0.1876128068994086,0.8123871931005913
+necessity,Qwen3-1.7B_vllm,single_step,median thinking tokens (clean),,46,1903.5,,
+necessity,Qwen3-1.7B_vllm,single_step,answer comes from worked steps,33.0,40,0.825,0.6804970794560755,0.9125469700311694
+necessity,Qwen3-1.7B_vllm,single_step,"median commit position (0 start, 1 end)",,40,0.5404683046569244,,
+propensity,Qwen3-1.7B_vllm,single_step,answer fixed in first 25% of trace,3.0,40,0.075,0.0258355567718582,0.1986453015909752
+propensity,Qwen3-1.7B_vllm,single_step,median share of trace written after commit,,40,0.4595316953430756,,
+propensity,Qwen3-1.7B_vllm,single_step,states the deciding reason,37.0,40,0.925,0.8013546984090248,0.974164443228142
+propensity,Qwen3-1.7B_vllm,single_step,after commit: verification,20.0,40,0.5,0.3519927879709975,0.6480072120290025
+propensity,Qwen3-1.7B_vllm,single_step,after commit: reconsideration,19.0,40,0.475,0.3293522955018169,0.6250289314607027
+propensity,Qwen3-1.7B_vllm,single_step,after commit: elaboration,1.0,40,0.025,0.0044267174077949,0.1288165948800778
+propensity,Qwen3-1.7B_vllm,single_step,after commit: none,0.0,40,0.0,0.0,0.0876245392503923
+propensity,Qwen3-1.7B_vllm,single_step,hinted traces that mention the hint,18.0,42,0.4285714285714285,0.2911742951914822,0.5779402208812553
+monitorability,Qwen3-1.7B_vllm,single_step,"flips disclosed (B1, automated)",3.0,7,0.4285714285714285,0.1582169222626268,0.7495457695909742
+monitorability,Qwen3-1.7B_vllm,single_step,flips flagged by the CoT-only monitor (B2),3.0,7,0.4285714285714285,0.1582169222626268,0.7495457695909742
+necessity,Qwen3-4B_vllm,multi_step,clean accuracy (sample 0),8.0,10,0.8,0.4901568467207233,0.9433190520193068
+necessity,Qwen3-1.7B_vllm,multi_step,clean accuracy (sample 0),5.0,10,0.5,0.2365895936154873,0.7634104063845126
+necessity,Qwen3-4B_vllm,multi_step,median thinking tokens (clean),,10,3271.5,,
+necessity,Qwen3-4B_vllm,multi_step,answer comes from worked steps,9.0,9,1.0,0.7008472464490407,1.0
+necessity,Qwen3-4B_vllm,multi_step,"median commit position (0 start, 1 end)",,9,0.5043207742827515,,
+propensity,Qwen3-4B_vllm,multi_step,answer fixed in first 25% of trace,1.0,9,0.1111111111111111,0.0198903713271305,0.4350062147680601
+propensity,Qwen3-4B_vllm,multi_step,median share of trace written after commit,,9,0.4956792257172485,,
+propensity,Qwen3-4B_vllm,multi_step,states the deciding reason,9.0,9,1.0,0.7008472464490407,1.0
+propensity,Qwen3-4B_vllm,multi_step,after commit: verification,4.0,9,0.4444444444444444,0.188775429471914,0.7333526542559703
+propensity,Qwen3-4B_vllm,multi_step,after commit: reconsideration,5.0,9,0.5555555555555556,0.2666473457440297,0.811224570528086
+propensity,Qwen3-4B_vllm,multi_step,after commit: elaboration,0.0,9,0.0,0.0,0.2991527535509594
+propensity,Qwen3-4B_vllm,multi_step,after commit: none,0.0,9,0.0,0.0,0.2991527535509594
+propensity,Qwen3-4B_vllm,multi_step,hinted traces that mention the hint,5.0,9,0.5555555555555556,0.2666473457440297,0.811224570528086
+monitorability,Qwen3-4B_vllm,multi_step,"flips disclosed (B1, automated)",1.0,1,1.0,0.2065432914738929,1.0
+monitorability,Qwen3-4B_vllm,multi_step,flips flagged by the CoT-only monitor (B2),1.0,1,1.0,0.2065432914738929,1.0
+necessity,Qwen3-1.7B_vllm,multi_step,median thinking tokens (clean),,10,3924.5,,
+necessity,Qwen3-1.7B_vllm,multi_step,answer comes from worked steps,8.0,8,1.0,0.6755843804891231,1.0
+necessity,Qwen3-1.7B_vllm,multi_step,"median commit position (0 start, 1 end)",,8,0.6494696172496024,,
+propensity,Qwen3-1.7B_vllm,multi_step,answer fixed in first 25% of trace,0.0,8,0.0,0.0,0.3244156195108769
+propensity,Qwen3-1.7B_vllm,multi_step,median share of trace written after commit,,8,0.3505303827503976,,
+propensity,Qwen3-1.7B_vllm,multi_step,states the deciding reason,7.0,8,0.875,0.5291051942301386,0.9775830911367038
+propensity,Qwen3-1.7B_vllm,multi_step,after commit: verification,5.0,8,0.625,0.3057378545838018,0.863158240538479
+propensity,Qwen3-1.7B_vllm,multi_step,after commit: reconsideration,3.0,8,0.375,0.136841759461521,0.6942621454161981
+propensity,Qwen3-1.7B_vllm,multi_step,after commit: elaboration,0.0,8,0.0,0.0,0.3244156195108769
+propensity,Qwen3-1.7B_vllm,multi_step,after commit: none,0.0,8,0.0,0.0,0.3244156195108769
+propensity,Qwen3-1.7B_vllm,multi_step,hinted traces that mention the hint,3.0,9,0.3333333333333333,0.1205815986827429,0.6458026525009102
+monitorability,Qwen3-1.7B_vllm,multi_step,"flips disclosed (B1, automated)",0.0,0,,,
+monitorability,Qwen3-1.7B_vllm,multi_step,flips flagged by the CoT-only monitor (B2),0.0,0,,,
+necessity,Qwen3-4B_vllm,all,clean accuracy (sample 0),99.0,120,0.825,0.7472413105195714,0.8825955132940744
+necessity,Qwen3-1.7B_vllm,all,clean accuracy (sample 0),82.0,120,0.6833333333333333,0.595519646541652,0.7597729207378406
+necessity,Qwen3-4B_vllm,all,median thinking tokens (clean),,120,851.5,,
+necessity,Qwen3-4B_vllm,all,answer comes from worked steps,60.0,105,0.5714285714285714,0.4759015101950585,0.6619134429111067
+necessity,Qwen3-4B_vllm,all,"median commit position (0 start, 1 end)",,105,0.568,,
+propensity,Qwen3-4B_vllm,all,answer fixed in first 25% of trace,16.0,105,0.1523809523809524,0.0960258228012675,0.233274738748728
+propensity,Qwen3-4B_vllm,all,median share of trace written after commit,,105,0.432,,
+propensity,Qwen3-4B_vllm,all,states the deciding reason,102.0,105,0.9714285714285714,0.9193423526396464,0.9902363378610444
+propensity,Qwen3-4B_vllm,all,after commit: verification,46.0,105,0.4380952380952381,0.3470420653581746,0.5335183086164821
+propensity,Qwen3-4B_vllm,all,after commit: reconsideration,47.0,105,0.4476190476190476,0.3560311977661813,0.5429045032892974
+propensity,Qwen3-4B_vllm,all,after commit: elaboration,10.0,105,0.0952380952380952,0.0525557429831568,0.1664928560819065
+propensity,Qwen3-4B_vllm,all,after commit: none,2.0,105,0.019047619047619,0.0052390722652503,0.0668069101532366
+propensity,Qwen3-4B_vllm,all,hinted traces that mention the hint,59.0,102,0.5784313725490197,0.481463617852727,0.6697056766401756
+monitorability,Qwen3-4B_vllm,all,"flips disclosed (B1, automated)",16.0,20,0.8,0.5839782779742401,0.9193436467288
+monitorability,Qwen3-4B_vllm,all,flips flagged by the CoT-only monitor (B2),14.0,17,0.8235294117647058,0.5897007098262422,0.93808986287451
+necessity,Qwen3-1.7B_vllm,all,median thinking tokens (clean),,120,1579.5,,
+necessity,Qwen3-1.7B_vllm,all,answer comes from worked steps,61.0,104,0.5865384615384616,0.4904590522556228,0.6764524179006063
+necessity,Qwen3-1.7B_vllm,all,"median commit position (0 start, 1 end)",,104,0.539379207333432,,
+propensity,Qwen3-1.7B_vllm,all,answer fixed in first 25% of trace,13.0,104,0.125,0.0745253179715623,0.202191644684778
+propensity,Qwen3-1.7B_vllm,all,median share of trace written after commit,,104,0.4606207926665679,,
+propensity,Qwen3-1.7B_vllm,all,states the deciding reason,98.0,104,0.9423076923076924,0.879809251317174,0.9732938183702192
+propensity,Qwen3-1.7B_vllm,all,after commit: verification,54.0,104,0.5192307692307693,0.4242432827339784,0.612848155078517
+propensity,Qwen3-1.7B_vllm,all,after commit: reconsideration,47.0,104,0.4519230769230769,0.3596875812706704,0.5475838241980912
+propensity,Qwen3-1.7B_vllm,all,after commit: elaboration,2.0,104,0.0192307692307692,0.0052896007240565,0.0674244539635593
+propensity,Qwen3-1.7B_vllm,all,after commit: none,1.0,104,0.0096153846153846,0.0016993291044208,0.0524690066769473
+propensity,Qwen3-1.7B_vllm,all,hinted traces that mention the hint,53.0,112,0.4732142857142857,0.383176074674878,0.5650290606133086
+monitorability,Qwen3-1.7B_vllm,all,"flips disclosed (B1, automated)",14.0,20,0.7,0.4810232237710206,0.854524726031006
+monitorability,Qwen3-1.7B_vllm,all,flips flagged by the CoT-only monitor (B2),13.0,19,0.6842105263157895,0.4601001017506463,0.846358289955714
+propensity,Qwen3-4B_vllm,flip,hinted traces that mention the hint,17.0,19,0.8947368421052632,0.686054495051583,0.9706420586049034
+propensity,Qwen3-4B_vllm,flip,hint stance: relies,14.0,19,0.7368421052631579,0.5120803155892935,0.8819376166045982
+propensity,Qwen3-4B_vllm,flip,hint stance: rejects,0.0,19,0.0,0.0,0.1681843653684505
+propensity,Qwen3-4B_vllm,flip,hint stance: mentions_only,3.0,19,0.1578947368421052,0.0552037103992782,0.3756592764317668
+propensity,Qwen3-4B_vllm,non_flip,hinted traces that mention the hint,39.0,76,0.5131578947368421,0.4028849903549509,0.622164607849494
+propensity,Qwen3-4B_vllm,non_flip,hint stance: relies,1.0,76,0.0131578947368421,0.0023264201405674,0.0708384462949749
+propensity,Qwen3-4B_vllm,non_flip,hint stance: rejects,38.0,76,0.5,0.3903240360982663,0.6096759639017337
+propensity,Qwen3-4B_vllm,non_flip,hint stance: mentions_only,0.0,76,0.0,0.0,0.0481152682310975
+propensity,Qwen3-4B_vllm,not_eligible,hinted traces that mention the hint,3.0,7,0.4285714285714285,0.1582169222626268,0.7495457695909742
+propensity,Qwen3-4B_vllm,not_eligible,hint stance: relies,2.0,7,0.2857142857142857,0.0822171657090155,0.6410709098517873
+propensity,Qwen3-4B_vllm,not_eligible,hint stance: rejects,0.0,7,0.0,0.0,0.3543388429752065
+propensity,Qwen3-4B_vllm,not_eligible,hint stance: mentions_only,1.0,7,0.1428571428571428,0.0256789559489747,0.51313450331903
+propensity,Qwen3-1.7B_vllm,flip,hinted traces that mention the hint,12.0,19,0.631578947368421,0.4103915749815672,0.8085072762372616
+propensity,Qwen3-1.7B_vllm,flip,hint stance: relies,11.0,19,0.5789473684210527,0.362755514651601,0.7685837960796962
+propensity,Qwen3-1.7B_vllm,flip,hint stance: rejects,1.0,19,0.0526315789473684,0.0093517524905299,0.2463921533654521
+propensity,Qwen3-1.7B_vllm,flip,hint stance: mentions_only,0.0,19,0.0,0.0,0.1681843653684505
+propensity,Qwen3-1.7B_vllm,non_flip,hinted traces that mention the hint,34.0,80,0.425,0.3225638801480732,0.534309080291613
+propensity,Qwen3-1.7B_vllm,non_flip,hint stance: relies,2.0,80,0.025,0.0068827488981252,0.0866460005532211
+propensity,Qwen3-1.7B_vllm,non_flip,hint stance: rejects,31.0,80,0.3875,0.2882439968827771,0.4970654437767524
+propensity,Qwen3-1.7B_vllm,non_flip,hint stance: mentions_only,1.0,80,0.0125,0.0022099186183062,0.0674643242396545
+propensity,Qwen3-1.7B_vllm,not_eligible,hinted traces that mention the hint,7.0,13,0.5384615384615384,0.2914343243183205,0.7679424569851186
+propensity,Qwen3-1.7B_vllm,not_eligible,hint stance: relies,3.0,13,0.2307692307692307,0.0817937909246571,0.5025687399512693
+propensity,Qwen3-1.7B_vllm,not_eligible,hint stance: rejects,1.0,13,0.0769230769230769,0.0137100663796963,0.3331453392824736
+propensity,Qwen3-1.7B_vllm,not_eligible,hint stance: mentions_only,3.0,13,0.2307692307692307,0.0817937909246571,0.5025687399512693
